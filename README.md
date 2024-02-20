@@ -1,8 +1,39 @@
 [![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
 
-# Python Package Template
-A easy, reliable, fluid template for python packages complete with docs, testing suites, readme's, github workflows, linting and much much more
+LONGAGENT: Scaling Language Models to 128k Context through
+Multi-Agent Collaboration
 
+Large language models (LLMs) have demon-
+strated impressive performance in understand-
+ing language and executing complex reasoning
+tasks. However, LLMs with long context win-
+dows have been notorious for their expensive
+training costs and high inference latency. Even
+the most advanced models such as GPT-4 and
+Claude2 often make mistakes when processing
+inputs of over 100k tokens, a phenomenon also
+known as lost in the middle. In this paper,
+we propose LONGAGENT, a method based
+on multi-agent collaboration, which scales
+LLMs (e.g., LLaMA) to a context of 128K and
+demonstrates potential superiority in long-text
+processing compared to GPT-4. In LONGA-
+GENT, a leader is responsible for understanding
+user intent and directing team members to
+acquire information from documents. Due
+to members’ hallucinations, it is non-trivial
+for a leader to obtain accurate information
+from the responses of dozens to hundreds of
+members. To address this, we develop an inter-
+member communication mechanism to resolve
+response conflicts caused by hallucinations
+through information sharing. Our experimental
+results indicate that LONGAGENT offers a
+promising alternative for long-text processing.
+The agent team instantiated with LLaMA-7B
+achieves significant improvements in tasks such
+as 128k-long text retrieval, multi-hop question
+answering, compared to GPT-4.
 
 ## Installation
 
